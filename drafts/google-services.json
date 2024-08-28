@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "319480823374",
+    "project_id": "tamatem-88a73",
+    "storage_bucket": "tamatem-88a73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319480823374:android:0952e1c77375df562b8d1f",
+        "android_client_info": {
+          "package_name": "com.example.mobileapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC36XvO2TQ64KjbudkRINvMRqrE-gp0loM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
