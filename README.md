@@ -4,6 +4,10 @@
 
 **Technologies used**: LSTM - GRU - XgBoost - YOLOv8 - ResNet50 - Flutter - Flask API - Firebase Firestore 
 
+<div align=center>
+<img width="250" alt="Screenshot 2024-08-28 at 7 47 11 PM" src="https://github.com/user-attachments/assets/f129f616-8dc8-4486-be5a-f0035a67f2e1">
+</div>
+
 ## Key Features:
 
 #### 1. Role-Based Access
