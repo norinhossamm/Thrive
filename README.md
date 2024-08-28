@@ -96,3 +96,29 @@
   <div align=center>
   <img width="686" alt="Screenshot 2024-08-28 at 7 33 56 PM" src="https://github.com/user-attachments/assets/7b1ed67f-3f78-4bfd-ad8a-76152fe0e2a6">
   </div>
+
+ #### 7. Database:
+
+ The Firestore database is organized into several distinct collections, each serving a critical function within the application.
+ 
+  •	Owner Registration: Owners register with credentials provided by database administrators, and their information is stored in the “Owners” collection.
+  
+  •	Farmer Registration: Farmers register directly through the app and are assigned to specific farms by an administrator. Their details are saved in the “Farmers” collection. Both      collections capture similar information: email, name, national ID, and phone number.
+  
+  •	Security: Login credentials are managed securely through Firebase Authentication, which hashes passwords to protect user data.
+  
+  •	Farm Information: The “Farms” collection holds comprehensive details about each farm, including its name, location, and arrays of strings that link farmers and owners to their       respective farms.
+  
+  •	Dynamic Data Storage: The “Crop and Fertilizer” and “Crop Health” collections create new documents with unique IDs every time a user submits data. These documents record user        inputs and system predictions for their respective modules.
+  
+  •	Logs: The “Logs” collection is used for tracking activities related to time series predictions. When an owner performs a prediction, the details—including the owner’s identity,      farm name, type of prediction (yield or price), crop type, and results—are stored in this collection.
+  
+  •	Dropdown Data: Dropdown menu items are dynamically fetched from the database, ensuring the application remains current with the latest available information.
+  
+  •	Image Storage: Images within the application are saved to cloud storage. For the vision system, users can choose to save images captured by the camera by selecting a checkbox.       These images are stored in cloud storage to contribute to ongoing model improvements.	
+
+<div align=center>
+<img width="602" alt="Screenshot 2024-08-28 at 7 43 43 PM" src="https://github.com/user-attachments/assets/7fa8bd02-39aa-4b5f-9391-a0cc3a3d7ba6">
+</div>
+
+
